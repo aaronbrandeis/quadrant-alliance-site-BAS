@@ -20,16 +20,18 @@ export const media: Record<string, string | null> = {
   // #33706880 a long run of switchgear and control panels. Depth, real tonal
   // range, and unmistakably the control layer.
   hero: "/assets/hero-switchgear-room.jpg",
-  // #19841119 DIN-rail I/O modules addressed A3/A4/A5, with POWER, RS-485
-  // and FAULT status LEDs and dense field wiring. RS-485 is the BACnet
-  // MS/TP field bus, so this reads as building automation rather than as
-  // generic electrical work. Replaced #14319099, a multimeter shot that
-  // could have been any electrician.
-  whoWeAre: "/assets/who-we-are-io-modules.jpg",
+  // #28942196 an open control enclosure: controller board with ethernet,
+  // DIN-rail terminal blocks, field wiring. Pulled back rather than a
+  // close-up, and carries no manufacturer branding, which matters because
+  // the platform is OEM-independent. Replaced an akYtec close-up whose
+  // branding was legible, and before that a generic multimeter shot.
+  whoWeAre: "/assets/who-we-are-panel-interior.jpg",
 
   // --- page heroes, all behind a heavy grey wash at 56vh ----------------
   aboutHero: "/assets/about-hero-wiring.jpg", // #28265032
-  areasHero: "/assets/areas-hero-control-panel.jpg", // #18471553
+  // #35573433 distribution board elevation. Replaced #18471553, which
+  // turned out to be a Festo training rig rather than a real panel.
+  areasHero: "/assets/areas-hero-distribution-board.jpg",
   ownersHero: "/assets/owners-hero-chiller-plant.jpg", // #37913513
   networkHero: "/assets/network-hero-rooftop.jpg", // #30210086
   contactHero: "/assets/contact-hero-facade.jpg", // #33719774
