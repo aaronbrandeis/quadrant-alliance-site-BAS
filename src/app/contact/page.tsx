@@ -18,9 +18,9 @@ export const metadata: Metadata = {
 };
 
 const team = [
-  { name: "Jason Vahn", email: "jason@quadrantalliance.com" },
-  { name: "Max Francois-Poncet", email: "max@quadrantalliance.com" },
-  { name: "Aaron Brandeis", email: "aaron@quadrantalliance.com" },
+  { name: "Jason Vahn", email: "jason@quadrantservice.com" },
+  { name: "Max Francois-Poncet", email: "max@quadrantservice.com" },
+  { name: "Aaron Brandeis", email: "aaron@quadrantservice.com" },
 ];
 
 export default function ContactPage() {

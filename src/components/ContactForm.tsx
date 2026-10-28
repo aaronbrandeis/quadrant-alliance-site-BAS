@@ -5,7 +5,7 @@ import { useState } from "react";
 const field =
   "mt-1.5 w-full rounded-lg border border-ink-300 px-4 py-2.5 text-sm text-ink-900 outline-none focus:border-brand-600 focus:ring-1 focus:ring-brand-600 disabled:bg-ink-50 disabled:text-ink-400";
 
-const FALLBACK = "aaron@quadrantalliance.com";
+const FALLBACK = "aaron@quadrantservice.com";
 
 type Status = "idle" | "sending" | "sent" | "error";
 
