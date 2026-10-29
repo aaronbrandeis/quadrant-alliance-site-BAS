@@ -20,12 +20,12 @@ export const media: Record<string, string | null> = {
   // #33706880 a long run of switchgear and control panels. Depth, real tonal
   // range, and unmistakably the control layer.
   hero: "/assets/hero-switchgear-room.jpg",
-  // #28942196 an open control enclosure: controller board with ethernet,
-  // DIN-rail terminal blocks, field wiring. Pulled back rather than a
-  // close-up, and carries no manufacturer branding, which matters because
-  // the platform is OEM-independent. Replaced an akYtec close-up whose
-  // branding was legible, and before that a generic multimeter shot.
-  whoWeAre: "/assets/who-we-are-panel-interior.jpg",
+  // #38217230 a real switchgear room: facing panel lineups, overhead
+  // conduit, scuffed floor. Chosen after four panel close-ups failed, each
+  // reading as generic electrical, a competitor's brand, or a studio
+  // product shot. A room with depth and wear reads as real; an isolated
+  // enclosure does not.
+  whoWeAre: "/assets/who-we-are-switchgear-room.jpg",
 
   // --- page heroes, all behind a heavy grey wash at 56vh ----------------
   aboutHero: "/assets/about-hero-wiring.jpg", // #28265032
